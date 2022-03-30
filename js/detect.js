@@ -75,8 +75,8 @@ detect = function () {
 
       let noseOffsetW = $(".rednose").width() / 2;
 
-      $(".rednose").css("top",_faceLandmarks.positions[33].y - noseOffsetW + "px");
-      $(".rednose").css("left",_faceLandmarks.positions[33].x - noseOffsetW + "px");
+      $(".rednose").css("top",_faceLandmarks.positions[31].y - noseOffsetW + "px");
+      $(".rednose").css("left",_faceLandmarks.positions[31].x - noseOffsetW + "px");
     }
 
     //FaceExpressions
