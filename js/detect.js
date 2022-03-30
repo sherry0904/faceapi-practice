@@ -40,6 +40,8 @@ detect = function () {
 
     const videoEl = $('#inputVideo').get(0)
 
+    $(".rednose").show();
+
     if ($('#inputVideo').height() != 0 && !isVidoe) {
       isVidoe = true;
       console.log($('#inputVideo').height());
