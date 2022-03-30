@@ -41,6 +41,15 @@
     .video__container canvas {
       margin: 0;
     }
+    .rednose {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 60px;
+      height: 60px;
+      background-color: red;
+      border-radius: 50%;
+    }
   </style>
 
 </head>
@@ -55,6 +64,7 @@
           <div class="video__container" class="margin">
             <video onloadedmetadata="detect.onPlay(this)" id="inputVideo" autoplay muted playsinline></video>
             <canvas id="overlay"></canvas>
+          <div class="rednose"></div>
           </div>
 
         </div>

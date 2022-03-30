@@ -72,6 +72,9 @@ detect = function () {
 
       _faceLandmarks = resizedResult.landmarks;
       console.log(_faceLandmarks);
+
+      $(".rednose").css("top",_faceLandmarks.positions[34].y - 30 + "px");
+      $(".rednose").css("left",_faceLandmarks.positions[34].x - 30 + "px");
     }
 
     //FaceExpressions
